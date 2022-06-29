@@ -35,6 +35,8 @@
     margin: 0;
 }
 .project-tex-item{
+    flex-wrap:wrap;
+    margin-left: px;
     /* font-weight: normal; */
     color: #FB6D3A;  
 }
@@ -75,6 +77,8 @@
         padding: 0 0 0 17px;
     }
     .project-item{
+        margin-top: 10px;
+        display: flex;
         color: black;
         font-weight: bold;
     }
@@ -88,6 +92,7 @@
         margin-left: 13px;
         }
         .my-project-link{
+            margin-right: 10px;
          font-style: normal;
         font-weight: normal;
         font-size: 14px;
